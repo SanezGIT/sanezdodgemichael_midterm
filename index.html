@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Colleges - Library Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>ABC Colleges</h1>
+        <h2> Library User </h2>
+          
+    </body>
+    </center>
+    <div class="container" id="studentContainer"></div>
+
+    <script>
+        fetch('sanez_dodge.xml')
+            .then(response => response.text())
+            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            .then(data => {
+                const students = data.getElementsByTagName("student");
+                const container = document.getElementById("studentContainer");
+
+                for (let i = 0; i < students.length; i++) {
+                    let student = students[i];
+                    let card = document.createElement("div");
+                    card.className = "user-card";
+                    card.innerHTML = `
+                        <div class="card-content">
+                            <img src="${student.getElementsByTagName("picture")[0].textContent}" alt="Student">
+                            <div class="text-content">
+                                <p><strong>Name:</strong> ${student.getElementsByTagName("name")[0].textContent}</p>
+                                <p><strong>Course:</strong> ${student.getElementsByTagName("course")[0].textContent}</p>
+                                <p><strong>Year Level / Section:</strong> ${student.getElementsByTagName("yearLevel")[0].textContent}</p>
+                                <p><strong>Adviser:</strong> ${student.getElementsByTagName("adviser")[0].textContent}</p>
+                                <p><strong>School Year:</strong> ${student.getElementsByTagName("schoolYear")[0].textContent}</p>
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                }
+            });
+    </script>
+</body>
+</html>

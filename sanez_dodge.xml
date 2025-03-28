@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <picture>https://content.imageresizer.com/images/memes/Kid-blinding-himself-meme-6.jpg</picture>
+        <name>Dodge Michael Sanez</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.ebayimg.com/images/g/MDYAAOSw77RhtRaX/s-l1200.png</picture>
+        <name>Rafael Dela Cruz</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://pbs.twimg.com/media/F6p3IyDWkAAh0RR.jpg</picture>
+        <name>Emanuel Quizon</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://pbs.twimg.com/media/GKAYCxtXcAA78oJ.jpg</picture>
+        <name>Dayne Cabilao</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/f6/a2/63/f6a26342af6c4d81ace69317be2f1c17.jpg</picture>
+        <name>Martin Binuya</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/94/55/36/945536db74230bbbb585b2d6ff021450.jpg</picture>
+        <name>Irish Debelen</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://resizing.flixster.com/wmc9Dm7muLXhmoi8UgV8Tdh7Dug=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/248207_v9_ba.jpg</picture>
+        <name>Enrico Olarte</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://tr.rbxcdn.com/180DAY-1c26dd1140becb6bba853e32b6c3f30a/420/420/Hat/Webp/noFilter.jpg</picture>
+        <name>Sun Jinwoo</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://snworksceo.imgix.net/dth/84e832cc-b853-40d1-bcf9-bd0d2aae2bec.sized-1000x1000.png?w=1000.jpg</picture>
+        <name>Ralph Paulino</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/7c/3e/b9/7c3eb9905f19d65c497ed2202255e5c0.jpg</picture>
+        <name>Ashley Santiago</name>
+        <course>BSIT</course>
+        <yearLevel>3bg2</yearLevel>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+</students>
